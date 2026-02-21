@@ -1,0 +1,27 @@
+{
+    "exercises":[
+        {
+            "id" : 1, 
+            "chapter" : "Complex Data Structures",
+            "topic" : "ArrayList",
+            "title" : "ArrayList with Integer",
+            "difficulty" : "easy",
+            "problem" : [
+                "Let us have an array of integer tab = [17, 18, 19, 17, 20, 22, 24].",
+                "1. Creates an arrayList of students ages std_ages from tab",
+                "2. Add two new elements 21, 20 using add().",
+                "3. Display the elements at 3 and 10 positions using get(). What do you notice?",
+                "4. Update the element at the 3rd position to 20 using set().",
+                "5. Insert 23 at the 2nd position using add()",
+                "6. Create a copy named std_ages_copy of the list using clone ()",
+                "7. Delete the element at the 4th position using remove().",
+                "8. Delete 17, get and display the list size.",
+                "9. Create another arraylist of kids ages: kids_ages = [5, 4, 7, 4, 8]",
+                "10. Put together both lists into a new one named people using addAll(Collection <> c).",
+                "11. Get from people the sub list between 3'd and 8th positions."
+            ],
+            "solution_file" : "solutions/chap1_arrayList.java",
+            "explanation" : "This exercise teaches the core operations of ArrayList: adding, removing, updating, cloning and extracting sublists. Unlike regular arrays, ArrayList is dynamic and it grows and shrinks automatically, which makes it more flexible for managing collections of data."
+        }
+    ]
+}
