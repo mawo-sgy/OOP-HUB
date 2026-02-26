@@ -1,4 +1,14 @@
 {
+    "chapters": [
+        {"id": 1, "name": "Complex Data Structures"},
+        {"id": 2, "name": "Generics and Reflection"},
+        {"id": 3, "name": "Event-Driven Programming and GUI"},
+        {"id": 4, "name": "JDBC — Java Database Connectivity"},
+        {"id": 5, "name": "Parallel Programming — Threads"},
+        {"id": 6, "name": "Network Programming"},
+        {"id": 7, "name": "Distributed Objects — RMI"}
+    ],
+    
     "exercises":[
         {
             "id" : 1, 

@@ -99,3 +99,31 @@ header {
     border: 2px solid #4F8EF7;
     color: #4F8EF7;
 }
+
+.chapter-card {
+    background-color: #4F8EF7;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-radius: 50px;
+    padding: 20px 0;
+    text-align: center; 
+    border: 5px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.chapter-card p{
+    font-size: 1.3rem;
+    padding-top: 5px;
+}
+
+.chapter-card:hover{
+    background: transparent;
+    color: #4F8EF7;
+    border: 5px solid #4F8EF7;
+}
+
+.chapters h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
